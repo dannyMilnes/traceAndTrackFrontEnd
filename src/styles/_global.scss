@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 62.5%; /* Sets up the Base 10 stuff */
+    font-weight: $fw-normal;
+}
+
+body {
+    @include rem(16);
+    color: $text-color;
+    font-family: $body-font;
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+// =============================================================================
+// LAYOUT
+// =============================================================================
+.full-width {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    max-width: $container-width;
+    padding: 0 15px;
+}
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title {
+    @include rem(42);
+    font-family: $header-font;
+    padding: 0 0 11rem 0;
+}

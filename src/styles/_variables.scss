@@ -1,0 +1,61 @@
+// =============================================================================
+// COLOURS
+// =============================================================================
+$primary-color: #5898ff;
+$white: #fff;
+$black: #000;
+
+// Light greys from #f1f1f1 to #c9c9c9
+$lightGrey-100: #f1f1f1;
+$lightGrey-200: #e7e7e7;
+$lightGrey-300: #d3d3d3;
+$lightGrey-400: #c9c9c9;
+
+// Mid greys from #c9c9c9 to #989898
+$mid-grey-100: #bfbfbf;
+
+//Greys from #989898 to #555
+$grey-100: #989898;
+$grey-200: #717171;
+$grey-300: #656565;
+$grey-400: #5c5c5c;
+
+//Dark greys from #555
+$darkGrey-400: #1c1c1c;
+
+// =============================================================================
+// TYPOGRAPHY
+// =============================================================================
+$base-font-px: 10;
+$text-color: $grey-300;
+
+$body-font: Arial, sans-serif;
+$header-font: "Roboto", sans-serif;
+
+// Font Weights
+$fw-light: 300;
+$fw-normal: 400;
+$fw-bold: 600;
+
+// =============================================================================
+// BREAKPOINTS
+// =============================================================================
+$breakpoint-md-max: 1024px;
+$breakpoint-md-min: 1025px;
+
+$breakpoint-sm-max: 738px;
+$breakpoint-sm-min: 739px;
+
+$breakpoint-xs-max: 374px;
+$breakpoint-xs-min: 375px;
+
+$breakpoint-menu-max: 1199px;
+$breakpoint-menu-min: 1200px;
+
+// =============================================================================
+// LAYOUT
+// =============================================================================
+$container-width: 1420px;
+
+// NAVIGATION
+$navHeight: 77px;
