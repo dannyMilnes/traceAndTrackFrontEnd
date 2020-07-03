@@ -1,0 +1,56 @@
+// Login Page Style
+
+// form {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .field {
+//     margin: 20px;
+//     width: 200px;
+//     border: 1px solid #6e6e6e;
+//     padding: 10px;
+//     border-radius: 10px;
+// }
+// ___________________________________
+
+.form {
+    &-fields {
+        display: flex;
+        flex-wrap: wrap;
+
+        & + & {
+            margin-top: 5rem;
+        }
+    }
+
+    &-field {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+
+        &--50 {
+            width: 100%;
+
+            @include breakpoint("small") {
+                width: 50%;
+            }
+        }
+
+        label {
+            margin-bottom: 0.4rem;
+        }
+
+        input {
+            border: 1px solid $grey-100;
+            padding: 0.7rem;
+            border-radius: 10px;
+        }
+    }
+
+    &__submit {
+        display: flex;
+        justify-content: center;
+    }
+}
